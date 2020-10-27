@@ -1,0 +1,162 @@
+img {
+  background-color: white;
+}
+
+a, h2, label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+a, h2 {
+  color: white;
+}
+
+html, body {
+  width: 1366px;
+  height: 768px;
+}
+
+.banner {
+  background-color: #FF66C4;
+  width: 1042px;
+  height: 111px;
+  position: absolute;
+  z-index: 0;
+}
+
+.column {
+  width: 324px;
+  height: 768px;
+  background-color: #004bad;
+}
+
+.column .cajalogo {
+  width: 324px;
+  height: 254px;
+  border-bottom: solid 1px #fff;
+}
+
+.column h2 {
+  font-size: 45px;
+  margin: 0 0 0 15px;
+  padding-top: 111px;
+}
+
+.column nav {
+  width: 324px;
+  height: 239px;
+}
+
+.column a {
+  font-size: 26px;
+  display: block;
+  padding-top: 77px;
+  margin: 0 0 0 1px;
+}
+
+.column a:hover {
+  background-color: rgba(255, 255, 255, 0.486);
+}
+
+label, input {
+  display: block;
+  border-radius: 20px;
+  color: #FF66C4;
+}
+
+form {
+  width: 1042px;
+  height: 768px;
+  margin-left: 324px;
+  background-color: rgba(187, 187, 187, 0.219);
+  position: absolute;
+  top: 8px;
+}
+
+form .imagen {
+  border-color: white;
+  background-color: white;
+  width: 224px;
+  height: 224px;
+  margin: 0 0 0 405px;
+}
+
+form #imagen {
+  padding-top: 10px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgba(173, 173, 173, 0);
+}
+
+form .columna1 {
+  margin: 100px 0 0 230px;
+}
+
+form .columna1 input {
+  width: 187px;
+  height: 28px;
+  border-style: none;
+  font-size: 20px;
+  text-align: center;
+  color: #004bad;
+}
+
+form .columna1 .labelText {
+  margin-left: 56px;
+}
+
+form .columna1 .nacionalidad {
+  margin-left: 32px;
+}
+
+form .columna1 .estadoCivil {
+  margin-left: 42px;
+}
+
+form .columna1 .documento {
+  margin-left: 40px;
+}
+
+form .columna2 {
+  margin: -289px 0 0 620px;
+}
+
+form .columna2 input {
+  width: 187px;
+  height: 28px;
+  border-style: none;
+  font-size: 20px;
+  text-align: center;
+  color: #004bad;
+}
+
+form .columna2 .celular {
+  margin-left: 60px;
+}
+
+form .columna2 .mail {
+  margin-left: 76px;
+}
+
+form .columna2 .direccion {
+  margin-left: 52px;
+}
+
+form .columna2 .experienciaLaboral {
+  margin-left: 43px;
+}
+
+form .columna2 .educacion {
+  margin-left: 48px;
+}
+
+form .submit {
+  width: 142px;
+  height: 40px;
+  position: absolute;
+  left: 443px;
+  top: 690px;
+  border-style: none;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */

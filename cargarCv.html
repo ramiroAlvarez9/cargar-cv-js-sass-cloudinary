@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <!--columna lateral, menu-->
+    <div class="column">
+    <div class="cajalogo">
+    <h2 class='titulo-column'>employment</h2>
+    </div>
+    <nav class="">
+        <a href=''>Cargar cv</a>
+        <a href=''>Mi cv</a>
+    </nav>
+    
+    </div>
+    
+
+
+
+    <!--formulario-->
+    <form action="">
+    <div class="banner">
+    <label for ="image" class='imagen'><img width ='224' height ='224'></img></label>
+    <input type='file' id ="imagen" name="foto-perfil" class='imagen' accept="image/png, image/jpeg">
+    
+    <div class="columna1">
+    <label for="nacionalidad" class='labelText'>Nombre:</label>
+    <input type="text" id='nombre'>
+    
+    <label for="estadocivil" class='labelText'>Apellido:</label>
+    <input type="text" id='apellido' >
+    
+    <label for="nacionalidad" class='nacionalidad''>Nacionalidad:</label>
+    <input type="text" id='nacionalidad'>
+    
+    <label for="estadocivil" class='estadoCivil'>Estado Civil:</label>
+    <input type="text" id='estadocivil'>
+    
+    <label for="Documento" class='documento'>Documento:</label>
+    <input type="text" id='documento' >
+    </div>
+    
+    <div class="columna2">       
+    <label for="Celular" class='celular'>Celular:</label>
+    <input type="text" id='celular'>
+    
+    <label for="E-mail" class='mail'>Mail:</label> 
+    <input type="text" id='mail' >
+
+    <label for="Direccion" class='direccion'>Direccion:</label>
+    <input type="text" id='direccion'>
+    
+    <label for="experiencia" class='experienciaLaboral'>Experiencia:</label>
+    <input type="text" id='experiencia'>
+
+    <label for="educacion" class='educacion'>Educacion:</label>
+    <input type="text" id='educacion'>
+    
+    </div>
+
+    <input type='submit' class='submit'>
+    </form>        
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src='cargarCv.js' type='module'></script>
+</html>
